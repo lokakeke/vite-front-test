@@ -2,12 +2,12 @@
 
   <h1>공통 파라미터</h1>
   <div>
-    <span>ID : </span>
+    <span>ID (숫자) : </span>
     <input type="text" v-model="params.id">
   </div>
 
   <div>
-    <span>이름 : </span>
+    <span>이름 (필수): </span>
     <input type="text" v-model="params.name">
   </div>
 
